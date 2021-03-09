@@ -1,2 +1,2 @@
 # EncryptChat
-JustAnotherProject
+just another project

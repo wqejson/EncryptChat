@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/chat.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css'>
+    <title>EncryptChat</title>
+</head>
+<body>  
+    <div id="particles-js" class="mw-100 mh-100">
+		<div class="container mw-100 h-100 ">
+			<div class="row no-gutters h-100 ">
+			  <div class="col-md-4 border-right  ">
+				<div class="settings-tray">
+				  <img class="profile-image" src="https://www.clarity-enhanced.net/wp-content/uploads/2020/06/filip.jpg" alt="Profile img">
+				  <span class="settings-tray--right">
+					<i class="material-icons">cached</i>
+					<i class="material-icons">message</i>
+					<i class="material-icons">menu</i>
+				  </span>
+				</div>
+				<div class="search-box ">
+				  <div class="input-wrapper">
+					<i class="material-icons">search</i>
+					<input placeholder="Search here" type="text">
+				  </div>
+				</div>
+				<div class="friend-drawer friend-drawer--onhover">
+				  <img class="profile-image" src="https://www.clarity-enhanced.net/wp-content/uploads/2020/06/robocop.jpg" alt="">
+				  <div class="text">
+					<h6>Robo Cop</h6>
+					<p class="text-muted">Hey, you're arrested!</p>
+				  </div>
+				  <span class="time text-muted small">13:21</span>
+				</div>
+				<hr>
+				<div class="friend-drawer friend-drawer--onhover">
+				  <img class="profile-image" src="https://www.clarity-enhanced.net/wp-content/uploads/2020/06/optimus-prime.jpeg" alt="">
+				  <div class="text">
+					<h6>Optimus</h6>
+					<p class="text-muted">Wanna grab a beer?</p>
+				  </div>
+				  <span class="time text-muted small">00:32</span>
+				</div>
+				<hr>
+				<div class="friend-drawer friend-drawer--onhover ">
+				  <img class="profile-image" src="https://www.clarity-enhanced.net/wp-content/uploads/2020/06/real-terminator.png" alt="">
+				  <div class="text">
+					<h6>Skynet</h6>
+					<p class="text-muted">Seen that canned piece of s?</p>
+				  </div>
+				  <span class="time text-muted small">13:21</span>
+				</div>
+				<hr>
+				<div class="friend-drawer friend-drawer--onhover">
+				  <img class="profile-image" src="https://www.clarity-enhanced.net/wp-content/uploads/2020/06/termy.jpg" alt="">
+				  <div class="text">
+					<h6>Termy</h6>
+					<p class="text-muted">Im studying spanish...</p>
+				  </div>
+				  <span class="time text-muted small">13:21</span>
+				</div>
+				<hr>
+				<div class="friend-drawer friend-drawer--onhover">
+				  <img class="profile-image" src="https://www.clarity-enhanced.net/wp-content/uploads/2020/06/rick.jpg" alt="">
+				  <div class="text">
+					<h6>Richard</h6>
+					<p class="text-muted">I'm not sure...</p>
+				  </div>
+				  <span class="time text-muted small">13:21</span>
+				</div>
+				<hr>
+				<div class="friend-drawer friend-drawer--onhover">
+				  <img class="profile-image" src="https://www.clarity-enhanced.net/wp-content/uploads/2020/06/rachel.jpeg" alt="">
+				  <div class="text">
+					<h6>XXXXX</h6>
+					<p class="text-muted">Hi, wanna see something?</p>
+				  </div>
+				  <span class="time text-muted small">13:21</span>
+				</div>
+				
+			  </div>
+			  <div class="col-md-8   ">
+				<div class="settings-tray">
+					<div class="friend-drawer no-gutters friend-drawer--grey">
+					<img class="profile-image" src="https://www.clarity-enhanced.net/wp-content/uploads/2020/06/robocop.jpg" alt="">
+					<div class="text">
+					  <h6>Robo Cop</h6>
+					  <p class="text-muted">Layin' down the law since like before Christ...</p>
+					</div>
+					<span class="settings-tray--right">
+					  <i class="material-icons">cached</i>
+					  <i class="material-icons">message</i>
+					  <i class="material-icons">menu</i>
+					</span>
+				  </div>
+				</div>
+				<div class="chat-messages">
+					<div class="message">
+						<p class="meta">Brad <span>9:12pm</span></p>
+						<p class="text">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
+							repudiandae.
+						</p>
+					</div>
+					<div class="message">
+						<p class="meta">Mary <span>9:15pm</span></p>
+						<p class="text">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
+							repudiandae.
+						</p>
+					</div>
+     			 </div>
+				  <div class="row ">
+					<div class="col-12 ">
+					  <div class="chat-box-tray ">
+						<form id="chat-form">
+							<input
+							  id="msg"
+							  type="text"
+							  placeholder="Enter Message"
+							  required
+							  autocomplete="off"
+							/>
+							<button class="btn"><i class="fas fa-paper-plane"></i> Send</button>
+					  </div>
+					</div>
+				  </div>
+		  	</div>
+		  </div>
+		</div>
+	</div>
+
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="./js/main.js"></script>
+	<script src="../server.js"></script>
+	<script src="../render.js"></script>
+    <script type="text/javascript" src="./js/particles/particles.js"></script>
+    <script type="text/javascript" src="./js/particles/particlesCFG.js"></script>
+	
+</body>
+</html>

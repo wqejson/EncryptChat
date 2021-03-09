@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Baloo 2', cursive;
+    height: 100vh;
+}
+
+#particles-js{
+    height: 100%;
+    background: linear-gradient( 45deg, #222831, #f05454);
+}
+
+
+
+.welcome{
+    width: 520px;
+    height: 250px;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 20px 30px;
+    box-shadow: #292929;
+    text-align: center;
+    
+}
+
+.welcome h1 h2 h3 h4{
+    margin-bottom: 50px;
+    padding: 100px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.welcome button{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #f05454;
+    border: #f05454;
+}
+
+.welcome button:hover{
+    background-color: #f05454;
+}
