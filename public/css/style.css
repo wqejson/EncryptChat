@@ -12,36 +12,72 @@ body{
 
 
 
-.welcome{
-    width: 520px;
-    height: 250px;
+.welcome-box{
+    width: 320px;
+    height: 340px;
+    background: rgba(20, 20, 20, 0.2);
     color: #fff;
     top: 50%;
     left: 50%;
     position: absolute;
     transform: translate(-50%,-50%);
     box-sizing: border-box;
-    padding: 20px 30px;
+    padding: 50px 30px;
+    backdrop-filter: blur(6px);
     box-shadow: #292929;
-    text-align: center;
     
 }
 
-.welcome h1 h2 h3 h4{
-    margin-bottom: 50px;
-    padding: 100px;
+h1{
+    margin: 0;
+    padding: 0 0 20px;
     text-align: center;
     font-size: 22px;
 }
 
-.welcome button{
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    background-color: #f05454;
-    border: #f05454;
+.welcome-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.welcome-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.welcome-box input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.welcome-box input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #373f4154;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.welcome-box input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #a9a7aa;
+    color: #000;
 }
 
-.welcome button:hover{
-    background-color: #f05454;
+.welcome-box a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+.welcome-box a:hover
+{
+    color: #515251;
 }

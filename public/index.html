@@ -13,14 +13,18 @@
 </head>
 <body>
     <div id="particles-js"></div>
-
-
-    <div class="welcome">
-            <h1>Welcome to ECrypChat</h1>
-            <h4>Title .,.dwadwa in order to start chating u must first  .....</h4>     
-            <button type="button" class="btn btn-primary btn-lg"  onClick="window.location='chat.html';">StartChating</button>
+    
+    <div class="welcome-box">    
+        <main class="join-main">
+            <h1>Start Chating</h1>
+            <form action="chat.html">
+                <p>Enter your username</p>
+                <input type="text" name="username" id="username" placeholder="Enter Username">     
+                <input type="submit" name="submit" value="Register"> 
+            </form>
+        </main>
     </div>
-        
+            
 
     <script type="text/javascript" src="./js/particles/particles.js"></script>
     <script type="text/javascript" src="./js/particles/particlesCFG.js"></script>
