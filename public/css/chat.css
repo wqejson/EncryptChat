@@ -69,7 +69,7 @@ body, html{
 	border: none;
 	border-radius: 30px;
 	width: 100%;
-	color: #dce4f1;
+	color: #777;
   	font-weight: 300;
  	margin-left: 20px;	
 	flex: 1;
@@ -96,6 +96,6 @@ body, html{
 }
 ::-webkit-scrollbar-thumb:hover
 {
-	background: linear-gradient(transparent, #fff);
+	background: linear-gradient(transparent, rgb(71, 67, 67));
 	border-radius: 6px;	
 }
